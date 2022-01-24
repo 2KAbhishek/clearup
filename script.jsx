@@ -1,4 +1,6 @@
 function App() {
+    const {useState} = React;
+    const [text, setText] = useState('');
     return (
         <div>
             <section className='hero is-info'>
@@ -16,17 +18,12 @@ function App() {
                         id='editor'
                         className='textarea'
                         placeholder='#Hello World'
-                        rows='10'></textarea>
+                        rows='10'
+                        onChange={e => setText(e.target.value)}
+                        value={text}></textarea>
                 </div>
             </section>
-            <section className='section'>
-                <div className='container'>
-                    <p className='subtitle has-text-info has-text-weight-bold px-4'>
-                        Preview
-                    </p>
-                    <textarea id='preview' className='textarea' rows='10' readonly></textarea>
-                </div>
-            </section>
+            <Preview markdown={text} />
             <footer class='footer mt-4'>
                 <div class='content has-text-centered'>
                     <p>
@@ -36,6 +33,23 @@ function App() {
                 </div>
             </footer>
         </div>
+    );
+}
+
+function Preview({markdown}) {
+    return (
+        <section className='section'>
+            <div className='container'>
+                <p className='subtitle has-text-info has-text-weight-bold px-4'>
+                    Preview
+                </p>
+                <textarea
+                    id='preview'
+                    className='textarea'
+                    rows='10'
+                    readonly></textarea>
+            </div>
+        </section>
     );
 }
 
