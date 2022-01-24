@@ -15,7 +15,8 @@ function App() {
                     <textarea
                         id='editor'
                         className='textarea'
-                        placeholder='e.g. Hello world'></textarea>
+                        placeholder='#Hello World'
+                        rows='10'></textarea>
                 </div>
             </section>
             <section className='section'>
@@ -23,10 +24,10 @@ function App() {
                     <p className='subtitle has-text-info has-text-weight-bold px-4'>
                         Preview
                     </p>
-                    <textarea id='preview' className='textarea is-primary'></textarea>
+                    <textarea id='preview' className='textarea' rows='10' readonly></textarea>
                 </div>
             </section>
-            <footer class='footer'>
+            <footer class='footer mt-4'>
                 <div class='content has-text-centered'>
                     <p>
                         <strong>ClearUp</strong> by{' '}
