@@ -26,7 +26,7 @@
 <h3>Short sweet headline with 🎇🎉</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/clearup/main/images/screenshot.png" alt="clearup Demo" style="width:100%">
+  <img src= "https://raw.githubusercontent.com/2KAbhishek/clearup/main/images/screenshot.jpg" alt="clearup Demo" style="width:100%">
   <br/>
   <figcaption>clearup screenshot</figcaption>
 </figure>
@@ -35,17 +35,17 @@
 
 ## What is this
 
-clearup is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+clearup is a markdown editor, with support for live previews that allows you to quickly create beautiful markdown documents.
 
 ## Inspiration
 
-clearup was inspired by `<reason/idea>`.
+Wanted to build my own markdown editor with a minimalistic feel.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `any web browser`
 
 ## Getting clearup
 
@@ -54,51 +54,25 @@ To install clearup, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/clearup
 cd clearup
-<install_command>
-```
-
-## Using clearup
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
 ```
 
 ## How it was built
 
-clearup was built using `<tech/library>`
+clearup was built using [React](https://reactjs.org/), [Babel](https://babeljs.io/), [Bulma](https://bulma.io/) and [Marked](https://marked.js.org/) .
 
 ## Challenges faced
 
-While building clearup the main challenges were `<issue/difficulty>`
+The main challenge was to setup react and babel in the browser, without using create-react-app or npm.
 
 ## What I learned
 
-While building clearup I `<learned/accomplished>` about `<learning/accomplishment>`
+- Got to try out `babel` on the browser
+- Learned a quick way to create a `react` app without much scaffolding
+- Learned about `marked` and few other libraries
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+Better code syntax highlighting with [Prism](https://prismjs.com/).
 
 Hit the ⭐ button if you found this useful.
 
@@ -106,7 +80,6 @@ Hit the ⭐ button if you found this useful.
 
 <div align="center">
 
-<a href="https://github.com/2KAbhishek/clearup">Source</a> |
-<a href="https://2kabhishek.github.io/clearup">Website</a>
+<a href="https://github.com/2KAbhishek/clearup">Source</a> | <a href="https://2kabhishek.github.io/clearup">Website</a>
 
 </div>
