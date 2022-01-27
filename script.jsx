@@ -14,7 +14,7 @@ function App() {
             <section className='hero is-info has-text-centered'>
                 <div className='hero-body'>
                     <p className='title'>ClearUp</p>
-                    <p className='subtitle'>A Markdown Editor</p>
+                    <p className='subtitle'>Clearup your markdown ✒️🤓</p>
                 </div>
             </section>
             <div className='columns is-desktop'>
