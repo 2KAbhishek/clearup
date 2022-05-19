@@ -26,7 +26,7 @@
 <h3>Clearup your markdown ✒️🤓</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/clearup/main/images/screenshot.jpg" alt="clearup Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="clearup Demo" style="width:100%">
   <br/>
   <figcaption>clearup screenshot</figcaption>
 </figure>
